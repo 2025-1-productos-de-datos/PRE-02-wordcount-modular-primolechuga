@@ -21,7 +21,7 @@ def test_homework():
 
     try:
         subprocess.run(
-            ["python3", "-m", "homework", "data/input", "data/output"],
+            ["python", "-m", "homework", "data/input", "data/output"],
             check=True,
         )
     except subprocess.CalledProcessError as e:
